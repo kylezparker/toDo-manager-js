@@ -11,9 +11,10 @@ header{
     justify-content:center;
     align-items:center;
     height:15vh;
-
-    height:15vh;
-    background-color: rgba(128,0,128,0.796);
+    background-image: url(https://www.hilarywinfield.com/wp-content/uploads/2017/01/Quiet-Expression.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
 
 }
 header div{
@@ -35,7 +36,7 @@ main{
     flex-direction:column;
     justify-content:flex-start;
     align-items:center;
-    background-image: url(https://www.teahub.io/photos/full/198-1982646_microsoft-todo.jpg);
+    background-image: url(https://th.bing.com/th/id/R.a0e0bf1a8a559e680f3a78660c291b34?rik=IOhIrSZM5fmYog&riu=http%3a%2f%2fwww.ecastles.co.uk%2fscarborough1811.jpg&ehk=39bRf%2fJ2VcaRkqs2bCRTXs2gakHhyDRhfbOxskrebS0%3d&risl=&pid=ImgRaw&r=0);
     height:85vh;
     background-position:center center;
     background-size:cover;
@@ -45,4 +46,8 @@ ul#todoList{
    width:60%;
    padding:2rem;
    border-radius:0.5rem;
+}
+.task{
+    font-weight:bold;
+    letter-spacing:1px;
 }

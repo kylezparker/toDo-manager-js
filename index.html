@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- user input stored in txtTask, registerTask called when Add button is clicked -->
     <header>
         <h1>My ToDo Task Manager</h1>
         <div>
-            <label for="">New Task:</label>
+            <label>New Task:</label>
             <input type="text" id="txtTask">
             <button class="btn" onclick="registerTask();">Add</button>
         </div>
     </header>
     <main>
+        <!-- todoList id is used as location to display tasks entered in registerTask function -->
         <h2>ToDo List</h2>
         <ul id="todoList">
-            <li>example item </li>
-        
         </ul>
     </main>
     
