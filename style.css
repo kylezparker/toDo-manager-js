@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:arial;
+}
+header{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:15vh;
+
+    height:15vh;
+    background-color: rgba(128,0,128,0.796);
+
+}
+header div{
+    display:flex;
+    justify-content:space-around;
+    margin:1rem;
+    width:50%;
+}
+header input{
+width:60%;
+
+}
+.btn{
+padding:0.2rem;
+width:5rem;
+}
+main{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    background-image: url(https://www.teahub.io/photos/full/198-1982646_microsoft-todo.jpg);
+    height:85vh;
+    background-position:center center;
+    background-size:cover;
+}
+ul#todoList{
+   background-color: rgba(204,204,204,0.434);
+   width:60%;
+   padding:2rem;
+   border-radius:0.5rem;
+}
